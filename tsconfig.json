@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    // 厳密な型チェックを有効化
+    "strict": true,
+    // ソースマップを有効化
+    "sourceMap": true,
+    // tsファイルはECS5にコンパイルされる
+    "target": "ES5",
+    "lib": ["ES2021", "DOM"],
+    // TSはesnextとして出力
+    "module": "esnext",
+    // JSXを使用可能に設定
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  // コンパイルするフォルダを指定
+  "include": ["src"]
+}
