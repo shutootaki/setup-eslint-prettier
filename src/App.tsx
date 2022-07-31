@@ -1,5 +1,3 @@
-import * as React from "react";
+import * as React from 'react';
 
-export const App: React.FC = () => {
-  return <div>Hello Qiita!</div>;
-};
+export const App: React.FC = () => <div>Hello Qiita!</div>;
